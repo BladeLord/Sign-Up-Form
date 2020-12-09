@@ -1,0 +1,190 @@
+
+
+body {
+    margin: 10px 20px;
+    padding: 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4C4C4C;
+    font-size: 12px;
+    justify-content: center;
+    align-content: center;
+    background-color: #EEECF1;
+}
+
+/* Sign in Area */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.sign-in {
+    display: grid;
+    padding-right: 10px;
+}
+
+
+/* Header Area */
+
+.logo {
+    padding-top: 2rem;
+    display: grid;
+    place-items: center center;
+}
+
+/*Main Area */
+
+main {
+    display: grid;
+    place-items: center center;
+}
+
+
+#create-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.desc {
+    font-size: 13px;
+}
+
+
+
+fieldset {
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    border: none;
+    
+}
+
+
+/* Footer */
+ .links {
+     display: flex;
+     place-items: center center;
+     padding: 0.5rem 1rem;
+     justify-content: center;
+    
+ }
+
+ .footer-links {
+    margin: 0 10px;
+    text-decoration: none;   
+    color: #4C4C4C !important;
+ }
+
+
+ .footer-text {
+    display: grid;
+    place-items: center center;
+    padding: 0;
+    justify-content: center;
+   
+}
+
+.footer {
+    padding: 0;
+    margin: 3px 0;
+}
+
+/*Utilities */
+
+button {
+    background-color: #0077c5;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid #C1C5C8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5C94D3;
+}
+
+a:link {
+    color:#0077c5;
+}
+
+img {
+    width: 20%;
+}
+
+label {
+    display: grid;
+    text-align: left;
+    line-height: 30px;
+}
+
+
+#create-act {
+    font-size: 15px;
+    background: #0077c5;
+    border-radius: 4%;
+    border-style: none;
+    height: 44px;
+    width: 350px;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 4px;
+}
+
+#create-act:hover {
+    background-color: #5C94D3;
+}
+
+#lock {
+    height: 13.5px;
+    width: 10.8px;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+
+#terms {
+    font-style: italic;
+    padding:2rem 1.5rem;
+    margin: 0 2rem;
+    line-height: 17px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 2px 0;
+    box-sizing: border-box;
+  }
+
+
+  #captcha  {
+      background-color: #EEECF1;
+      padding:0.8rem 1.5rem;
+      margin: 0;
+      font-size: 10px;
+      text-align: center;
+  }
+
+  #form-field {  
+    width: 400px;
+    display: block;
+    border: 1px solid  #c7c7c7;
+    background-color: white;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  label {
+      font-size: 15px;
+  }
+
+  span {
+      font-size: 10px;
+      
+      margin: 0;
+  }
